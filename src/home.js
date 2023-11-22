@@ -25,8 +25,8 @@ function createHome(){
     return home;
 }
 
-export default function appendHome(){
-    const main = document.getElementById("content");
+export function appendHome(){
+    const main = document.getElementById("main");
     main.textContent = "";
     main.appendChild(createHome());
 }
