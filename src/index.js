@@ -1,5 +1,7 @@
 import {appendHome} from './home';
 import {appendMenu} from './menu';
+import {appendContact} from './contact';
+
 
 function createMain() {
     const main = document.createElement("main");
@@ -38,7 +40,7 @@ function fixedContent()
     aboutContainer.addEventListener("click", (e) => {
         if (e.target.classList.contains("active")) return;
         currentNav(aboutContainer);
-        appendHome();
+        appendContact();
       });
 
     headerContainer.appendChild(homeContainer);
