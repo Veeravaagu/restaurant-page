@@ -1,0 +1,126 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
+  .header-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 0;
+    position: sticky;
+    top: 0; 
+    width: 100%;
+    z-index: 1;
+  }
+
+  .current-nav {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .current-nav.active {
+    border-bottom: 2px solid #E8AA42; 
+  }
+  
+
+  #content {
+    background: url("./img/Bg-img.jpeg") center center/cover no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+  }
+  
+
+  .main {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 60px;
+    max-width: 80%;
+  }
+  
+
+  .home-container,
+  .menu-container,
+  .about-us-container {
+    text-align: center;
+    max-width: 60%; 
+    margin: 20px auto; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .restaurant-name {
+    font-size: 2em;
+    color: #E8AA42; 
+  }
+  
+  .restaurant-catch-phrase {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #262626;
+  }
+  
+  .underline {
+    border-bottom: 2px solid #E8AA42; 
+    margin: 10px auto;
+  }
+  
+  .restaurantDescription {
+    color: #262626;
+  }
+  
+  .menu {
+    font-size: 1.5em;
+    color: #262626;
+  }
+  
+  .thick-underline {
+    border-bottom: 4px solid #E8AA42; 
+    width: 50%;
+    margin: 10px auto;
+  }
+  
+  .dishes {
+    font-size: 1.2em;
+    color: #E8AA42; 
+  }
+  
+  .dishes-description {
+    color: #262626;
+  }
+  
+  .thin-underline {
+    border-bottom: 1px solid #E8AA42; 
+    width: 30%;
+    margin: 10px auto; 
+  }
+  
+  .cost {
+    font-size: 1.2em;
+    color: #E8AA42; 
+  }
+  
+  .about-us {
+    text-align: center;
+    color: #262626;
+    max-width: 75ch;
+    line-height: 1.5;
+    margin: 20px 0;
+  }
+  

@@ -1,3 +1,4 @@
+// Function to create the contact content
 function createContact(){
     
     const about = document.createElement('p');
@@ -10,14 +11,13 @@ function createContact(){
     
     Entra in Pizziamo, e non sei solo un cliente; fai parte della nostra famiglia allargata. Unisciti a noi in un viaggio culinario in cui ogni morso racconta una storia e ogni pasto è una celebrazione di tradizione e innovazione.
     
-    Grazie per far parte della nostra storia. Buon Appetito!
-    
-    `
+    Grazie per far parte della nostra storia. Buon Appetito!`
+
     return about;
 }
 
 
-
+// Function to append the contact content to the main container
 export function appendContact(){
     const main = document.getElementById("main");
     main.textContent = "";
